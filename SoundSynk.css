@@ -18,13 +18,16 @@ body {
     z-index:-1;
     background-attachment: fixed;
     position:fixed;
-    background-image: url("hearth.jpg");
+    background-image: url("Placeholder.jpg");
 }
 
 h1 {
     background-color: rgba(0,0,0, 1);
     color: white;
     width: auto;
+    height: 16%;
+    font-size: 50px;
+    font-family: 'Allerta', Helvetica, Arial, Sans-serif;
     text-align: center;
 }
 
@@ -32,8 +35,14 @@ h1 {
     background-color: rgba(0, 0, 0, .5);
     position: absolute;
     float: left;
-    width: 60%;
+    width: 70%;
     height: 100%;
+}
+
+#currentSong {
+    margin-left: 15%;
+    background-color: rgba(0, 0, 0, .8);
+    margin-top: 7.5%;
 }
 
 #songInfo {
@@ -49,21 +58,25 @@ h1 {
 
 #songTitle {
     color: white;
+    padding-left: 2.5%;
     float: left;
+    width: 80%;
 }
 
 #artist {
     color: white;
     float: left;
+    padding-left: 2.5%;
 }
 
 #chatBox {
     background-color: rgba(0, 0, 0, .8);
     position: absolute;
-    left: 60%;
+    left: 70%;
     float: left;
-    width: 40%;
+    width: 30%;
     height: 100%;
+    text-align: center;
 }
 
 h2 {
